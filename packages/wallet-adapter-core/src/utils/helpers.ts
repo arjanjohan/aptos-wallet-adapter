@@ -78,27 +78,11 @@ export const getAptosConfig = (
     });
   }
 
-  const knownNetworks = {
-    okx: "https://wallet.okx.com/fullnode/aptos/discover/rpc",
-  };
+  return new AptosConfig({
+    network: Network.CUSTOM,
+    fullnode: networkInfo.url,
+  });
 
-  if (networkInfo.url) {
-    const isKnownNetwork = Object.values(knownNetworks).includes(
-      networkInfo.url
-    );
-
-    if (isKnownNetwork) {
-      return new AptosConfig({
-        network: Network.CUSTOM,
-        fullnode: networkInfo.url,
-      });
-    }
-  }
-
-  // Custom networks are not supported, please ensure that the wallet is returning the appropriate network Mainnet, Testnet, Devnet, Local
-  throw new Error(
-    `Invalid network, network ${networkInfo.name} not supported with Aptos wallet adapter to prevent user from using an unexpected network.`
-  );
 };
 
 /**

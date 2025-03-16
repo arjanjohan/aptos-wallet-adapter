@@ -16,7 +16,7 @@ import {
   InputSubmitTransactionData,
   AptosSignInInput,
   AptosSignInOutput,
-} from "@aptos-labs/wallet-adapter-core";
+} from "@scaffold-move/wallet-adapter-core";
 
 export interface WalletContextState {
   connected: boolean;

@@ -19,7 +19,7 @@ import {
   WalletReadyState,
   AptosSignInInput,
   AptosSignInOutput,
-} from "@aptos-labs/wallet-adapter-core";
+} from "@scaffold-move/wallet-adapter-core";
 import { ReactNode, FC, useState, useEffect, useCallback, useRef } from "react";
 import { WalletContext } from "./useWallet";
 
