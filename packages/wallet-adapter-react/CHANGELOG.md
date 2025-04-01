@@ -1,5 +1,42 @@
 # @aptos-labs/wallet-adapter-react
 
+## 5.0.0
+
+### Minor Changes
+
+- ad3b6bb: Introduce x chain wallets logic in the react adapter provider
+
+### Patch Changes
+
+- Updated dependencies [8a2b3b6]
+- Updated dependencies [ad3b6bb]
+  - @aptos-labs/derived-wallet-ethereum@0.1.2
+  - @aptos-labs/derived-wallet-solana@0.2.0
+  - @aptos-labs/wallet-adapter-core@5.2.0
+
+## 4.1.5
+
+### Patch Changes
+
+- 8fea651: Add React version 19 to the wallet-adapter-react peer dependencies list
+- Updated dependencies [6bfd2fb]
+  - @aptos-labs/wallet-adapter-core@5.1.4
+
+## 4.1.4
+
+### Patch Changes
+
+- 25ab2ef: Allow users to perform connections when the wallet is `_connected` but `_account` is `null`
+- Updated dependencies [25ab2ef]
+  - @aptos-labs/wallet-adapter-core@5.1.3
+
+## 4.1.3
+
+### Patch Changes
+
+- Updated dependencies [6a5737a]
+  - @aptos-labs/wallet-adapter-core@5.1.2
+
 ## 4.1.2
 
 ### Patch Changes
