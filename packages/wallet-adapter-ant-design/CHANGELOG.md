@@ -1,5 +1,33 @@
 # @aptos-labs/wallet-adapter-ant-design
 
+## 4.0.9
+
+### Patch Changes
+
+- Updated dependencies [ad3b6bb]
+  - @aptos-labs/wallet-adapter-react@5.0.0
+
+## 4.0.8
+
+### Patch Changes
+
+- Updated dependencies [8fea651]
+  - @aptos-labs/wallet-adapter-react@4.1.5
+
+## 4.0.7
+
+### Patch Changes
+
+- 25ab2ef: Allow users to perform connections when the wallet is `_connected` but `_account` is `null`
+- Updated dependencies [25ab2ef]
+  - @aptos-labs/wallet-adapter-react@4.1.4
+
+## 4.0.6
+
+### Patch Changes
+
+- @aptos-labs/wallet-adapter-react@4.1.3
+
 ## 4.0.5
 
 ### Patch Changes
