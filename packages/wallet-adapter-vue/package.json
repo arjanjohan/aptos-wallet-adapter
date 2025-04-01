@@ -20,11 +20,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/aptos-labs/aptos-wallet-adapter.git"
+    "url": "https://github.com/arjanjohan/aptos-wallet-adapter.git"
   },
-  "homepage": "https://github.com/aptos-labs/aptos-wallet-adapter",
+  "homepage": "https://github.com/arjanjohan/aptos-wallet-adapter",
   "bugs": {
-    "url": "https://github.com/aptos-labs/aptos-wallet-adapter/issues"
+    "url": "https://github.com/arjanjohan/aptos-wallet-adapter/issues"
   },
   "author": "aptoslabs.com",
   "keywords": [
