@@ -10,4 +10,4 @@ A fork of [Aptos Wallet Adapter](https://github.com/aptos-labs/aptos-wallet-adap
 2. Then, install this fork.
 ```npm install @scaffold-move/wallet-adapter-react```
 
-3. Replace any reference to `@aptos-labs/wallet-adapter-reac` by `@scaffold-move/wallet-adapter-react` troughout your app.
+3. Replace any reference to `@aptos-labs/wallet-adapter-react` by `@scaffold-move/wallet-adapter-react` troughout your app.

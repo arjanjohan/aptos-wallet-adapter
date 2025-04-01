@@ -1,13 +1,3 @@
-# Aptos Wallet Adapter core functionality
+# Aptos Wallet Adapter
 
-The core functionality for the wallet adapter that holds and manages the adapter state, validations and interaction with the current connected wallet.
-
-### Usage
-
-```ts
-import { WalletCore } from "@aptos-labs/wallet-adapter-core";
-
-const walletCore = new WalletCore([], dappConfig);
-
-const wallets = walletCore.wallets();
-```
+A fork of [Aptos Wallet Adapter](https://github.com/aptos-labs/aptos-wallet-adapter) that supports custom networks.
